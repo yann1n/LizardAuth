@@ -1,0 +1,8 @@
+# Time in seconds before a player is kicked for not authenticating.
+command-timeout: 30
+
+# Minimum number of characters required for a password.
+minimum-password-length: 6
+
+# Enables the license check functionality. Licensed players will bypass registration/login.
+license-check-enabled: true

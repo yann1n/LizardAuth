@@ -1,0 +1,18 @@
+name: LizardAuth
+version: '1.0'
+main: org.Lizard.lizardAuth.LizardAuth
+api-version: '1.21'
+authors: [ YourName ]
+description: Authentication plugin with license verification.
+
+
+commands:
+  register:
+    description: Register an account.
+    usage: /register <password> <confirm_password>
+  login:
+    description: Login to your account.
+    usage: /login <password>
+  checklic:
+    description: Request license verification (requires re-login).
+    usage: /checklic
